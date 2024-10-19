@@ -342,7 +342,7 @@
 <body>
     <div id="notification">
     Разыгрываем ваучеры!
-    <button class="notification-button" onclick="window.location.href='https://t.me/psiblades1337';">Перейти</button>
+    <button class="notification-button" onclick="window.location.href='https://t.me/thirsty_ne';">Follow</button>
     </div>
     <div class="container">
         <img src="1.png" alt="Череп 1" id="skull1">
@@ -351,8 +351,8 @@
         <img src="3.png" alt="Алмаз" id="diamond" class="diamond" style="display: none;">
     </div>
     <div class="button-container">
-    <button class="start-button" onclick="openModal()">Начать</button>
-    <button class="return-button" onclick="location.href='https://entyludik.github.io/mainforsale/'">Вернуться</button>
+    <button class="start-button" onclick="openModal()">Start</button>
+    <button class="return-button" onclick="location.href='https://entyludik.github.io/mainforsale/'">Back</button>
     <div class="business-name">
        <img src="tg.svg" alt="Telegram Icon" style="vertical-align: middle; margin-right: 10px; width: 60px; height: 60px;">
         psiblades1337
@@ -378,10 +378,10 @@
     
     if (hashId.length === 0) {
         input.classList.add('error');
-        input.placeholder = 'Введите hash id';
+        input.placeholder = 'Enter hash id';
     } else if (hashId.length !== 128) {
         input.classList.add('error');
-        input.placeholder = 'Неверный Hash ID';
+        input.placeholder = 'Incorrect Hash ID';
         input.value = ''; // Очистка поля ввода
     } else {
         input.classList.remove('error');
